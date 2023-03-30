@@ -17,5 +17,5 @@ scFSNN(train_X, train_Y,  val_X, val_Y, test_X, test_Y,
 
 ## Arguments
 
-1. train_X training inputs
-2. train_Y training output
+* train_X training inputs
+* train_Y training output
