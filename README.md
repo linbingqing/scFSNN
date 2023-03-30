@@ -1,10 +1,10 @@
-# scFSNN
+# Intro of scFSNN
 Feature selection based on deep neural network for scRNAseq data
 
 # Getting started
 In order to run scFSNN, an operative version of Python and TensorFlow is needed. The code has been tested on Python 3.8.12 and PyTorch 1.10.2. Other Python dependencies include numpy and scikit-learn.
 
-# Running scFSNN
+# scFSNN
 
 ## Description
 *scFSNN* is used to select features based on deep neural network for scRNAseq data.
@@ -17,5 +17,5 @@ scFSNN(train_X, train_Y,  val_X, val_Y, test_X, test_Y,
 
 ## Arguments
 
-\item train_X training inputs
-\item train_Y training output
+1. train_X training inputs
+2. train_Y training output
