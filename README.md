@@ -6,6 +6,16 @@ In order to run scFSNN, an operative version of Python and TensorFlow is needed.
 
 # Running scFSNN
 
+## Description
+*scFSNN* is used to select features based on deep neural network for scRNAseq data.
+
+## Usuage
+
 scFSNN(train_X, train_Y,  val_X, val_Y, test_X, test_Y, 
          num_classes, lr, epochs, batch_size, q0, device,
          dropout=0.5, eta=1, elimination_rate=1, cut_off=0.1)
+
+## Arguments
+
+\item train_X training inputs
+\item train_Y training output
