@@ -19,3 +19,14 @@ scFSNN(train_X, train_Y,  val_X, val_Y, test_X, test_Y,
 
 * train_X training inputs
 * train_Y training output
+* val_X validation inputs
+* val_Y validation output
+* test_X test inputs
+* test_Y test output
+* num_classes number of classes of output
+* lr learning rate
+* epochs number of epochs to train
+* q0 number of dummy variables
+* device "gpu" or "cpu"
+* dropout dropout rate to control the overfitting
+
